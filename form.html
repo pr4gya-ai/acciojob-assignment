@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+.page-form {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #000;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.form-title {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+.form-table td {
+    border: 1px solid #000;
+    padding: 4px 8px;
+    vertical-align: middle;
+}
+
+.section-title {
+    background-color: #008ba3;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.col-no {
+    width: 50px;
+    background-color: #f9f9f9;
+}
+
+.col-label {
+    width: 450px;
+    background-color: #f9f9f9;
+}
+
+.text-box, .dropdown {
+    border: 1px solid #777;
+    padding: 2px;
+    width: 100%;
+    max-width: 200px;
+    box-sizing: border-box;
+}
+
+.radio-lb {
+    margin-right: 15px;
+}
+
+.button-row {
+    text-align: center;
+    padding: 10px;
+}
+
+.btn-st {
+    padding: 2px 15px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="page-form">
+
+<div class="form-title">
+REGISTRATION APPLICATION FORM FOR COURSE - O LEVEL
+</div>
+
+<form>
+<table class="form-table">
+
+<tr>
+<td colspan="3" class="section-title">1. Registration Form</td>
+</tr>
+
+<tr>
+<td class="col-no">1.0</td>
+<td class="col-label">Have you got online reference number for enrollment with NIELIT/Accreditation/Extension Center</td>
+<td>
+<label class="radio-label"><input type="radio" name="ref"> No</label>
+<label class="radio-label"><input type="radio" name="ref"> Yes</label>
+</td>
+</tr>
+
+<tr>
+<td class="col-no">1.1</td>
+<td class="col-label">Registration sought for</td>
+<td><select class="dropdown"><option>O LEVEL</option></select></td>
+</tr>
+
+<tr>
+<td class="col-no">1.2</td>
+<td class="col-label">Applied As</td>
+<td>
+<label class="radio-label"><input type="radio" name="apply"> Direct Candidate</label>
+<label class="radio-label"><input type="radio" name="apply"> Through Institute</label>
+</td>
+</tr>
+
+<tr>
+<td class="col-no">1.3</td>
+<td class="col-label">Exam Cycle</td>
+<td><input type="text" value="July, 2022" class="text-box"></td>
+</tr>
+
+<tr>
+<td class="col-no">1.4</td>
+<td class="col-label">Registration Fee Will Be Paid By?</td>
+<td><input type="text" value="Candidate Direct to NIELIT" class="text-box"></td>
+</tr>
+
+<tr>
+<td  colspan="3" class="section-title">2. Applicant's Personal Details</td>
+</tr>
+
+<tr>
+<td class="col-no">2.1</td>
+<td class="col-label">Applicant's Full Name</td>
+<td>
+<select class="dropdown">
+<option>Mr.</option>
+<option>Mrs.</option>
+<option>Others</option>
+</select>
+<input type="text" class="text-box">
+</td>
+</tr>
+
+<tr>
+<td class="col-no">2.2</td>
+<td class="col-label">Care Of</td>
+<td>
+<label class="radio-lb"><input type="radio" name="care"> Parents</label>
+<label class="radio-lb"><input type="radio" name="care"> Guardian</label>
+</td>
+</tr>
+
+<tr>
+<td class="col-no">2.2.1</td>
+<td class="col-label">Father's Name</td>
+<td>
+<select class="dropdown"><option>Mr.</option></select>
+<input type="text" class="text-box">
+</td>
+</tr>
+
+<tr>
+<td class="col-no">2.2.2</td>
+<td class="col-label">Mother's Name</td>
+<td>
+<select class="dropdown"><option>Mrs.</option></select>
+<input type="text" class="text-box">
+</td>
+</tr>
+
+<tr>
+<td class="col-no">2.3</td>
+<td class="col-label">Gender</td>
+<td>
+<label class="radio-label"><input type="radio" name="g"> Male</label>
+<label class="radio-label"><input type="radio" name="g"> Female</label>
+<label class="radio-label"><input type="radio" name="g"> Others</label>
+</td>
+</tr>
+
+<tr>
+<td class="col-no">2.4</td>
+<td class="col-label">Date of Birth</td>
+<td><input type="date" class="text-box"></td>
+</tr>
+
+<tr>
+<td class="col-no">2.5</td>
+<td class="col-label">Marital Status</td>
+<td>
+<select class="dropdown">
+<option>--Select--</option>
+<option>Single</option>
+<option>Married</option>
+<option>Divorced</option>
+<option>Widowed</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td class="col-no">2.6</td>
+<td class="col-label">Category</td>
+<td>
+<select class="dropdown">
+<option>--Select--</option>
+<option>General</option>
+<option>OBC</option>
+<option>SC</option>
+<option>ST</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td class="col-no">2.7</td>
+<td class="col-label">Handicapped</td>
+<td>
+<label class="radio-lb"><input type="radio" name="h"> No</label>
+<label class="radio-lb"><input type="radio" name="h"> Yes</label>
+</td>
+</tr>
+
+<tr>
+<td class="col-no">2.8</td>
+<td class="col-label">Ex-Serviceman</td>
+<td>
+<label class="radio-lb"><input type="radio" name="ex"> No</label>
+<label class="radio-lb"><input type="radio" name="ex"> Yes</label>
+</td>
+</tr>
+
+<tr>
+<td class="col-no">2.9</td>
+<td class="col-label">EWS</td>
+<td>
+<label class="radio-lb"><input type="radio" name="ews"> No</label>
+<label class="radio-lb"><input type="radio" name="ews"> Yes</label>
+</td>
+</tr>
+
+<tr>
+<td class="col-no">2.10</td>
+<td class="col-label">Religion</td>
+<td>
+<select class="dropdown">
+<option>--Select--</option>
+<option>Hindu</option>
+<option>Muslim</option>
+<option>Jain</option>
+<option>Christianity</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td colspan="3" class="section-title">3. Contact Details</td>
+</tr>
+
+<tr>
+<td class="col-no">3.1</td>
+<td class="col-label">Mobile Number</td>
+<td><input type="tel" class="text-box"></td>
+</tr>
+
+<tr>
+<td class="col-no">3.2</td>
+<td class="col-label">Email ID</td>
+<td><input type="email" class="text-box"></td>
+</tr>
+
+<tr>
+<td class="col-no">3.3</td>
+<td class="col-label">Address Line 1</td>
+<td><input type="text" class="text-box"></td>
+</tr>
+
+<tr>
+<td class="col-no">3.4</td>
+<td class="col-label">Address Line 2</td>
+<td><input type="text" class="text-box"></td>
+</tr>
+
+<tr>
+<td class="col-no">3.5</td>
+<td class="col-label">City</td>
+<td><input type="text" class="text-box"></td>
+</tr>
+
+<tr>
+<td class="col-no">3.6</td>
+<td class="col-label">State</td>
+<td>
+<select class="dropdown">
+<option>--Select--</option>
+<option>Andhra Pradesh</option>
+<option>Arunachal Pradesh</option>
+<option>Assam</option>
+<option>Bihar</option>
+<option>Chhattisgarh</option>
+<option>Goa</option>
+<option>Gujarat</option>
+<option>Haryana</option>
+<option>Himachal Pradesh</option>
+<option>Jharkhand</option>
+<option>Karnataka</option>
+<option>Kerala</option>
+<option>Madhya Pradesh</option>
+<option>Maharashtra</option>
+<option>Manipur</option>
+<option>Meghalaya</option>
+<option>Mizoram</option>
+<option>Nagaland</option>
+<option>Odisha</option>
+<option>Punjab</option>
+<option>Rajasthan</option>
+<option>Sikkim</option>
+<option>Tamil Nadu</option>
+<option>Telangana</option>
+<option>Tripura</option>
+<option>Uttar Pradesh</option>
+<option>Uttarakhand</option>
+<option>West Bengal</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td class="col-no">3.7</td>
+<td class="col-label">Pin Code</td>
+<td><input type="text" class="text-box"></td>
+</tr>
+
+<tr>
+<td colspan="3" class="section-title">4. Educational / Qualification Details</td>
+</tr>
+
+<tr>
+<td class="col-no">4.1</td>
+<td class="col-label">Highest Educational Qualification</td>
+<td>
+<select class="dropdown">
+<option>--Select--</option>
+<option>10th</option>
+<option>12th</option>
+<option>Graduate</option>
+<option>Post Graduate</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td class="col-no">4.2</td>
+<td class="col-label">Year of Passing</td>
+<td><input type="text" class="text-box"></td>
+</tr>
+
+<tr>
+<td colspan="3" class="section-title">5. Identification Details</td>
+</tr>
+
+<tr>
+<td class="col-no">5.1</td>
+<td class="col-label">Aadhar Card Number</td>
+<td><input type="text" class="text-box"></td>
+</tr>
+
+<tr>
+<td class="col-no">5.2</td>
+<td class="col-label">Upload Photo</td>
+<td><input type="file"></td>
+</tr>
+
+<tr>
+<td colspan="3" class="button-row">
+<input type="submit" value="Submit" class="btn-st">
+<input type="button" value="Back" class="btn-st">
+</td>
+</tr>
+
+</table>
+</form>
+
+</div>
+</body>
+</html>
