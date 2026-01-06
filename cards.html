@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARD</title>
+    
+</head>
+    <style>
+        * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+.main-container {
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.content-section {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.sidebar {
+    width: 20%;
+    min-height: 100vh;
+    padding: 1rem;
+    background-color: #f4f4f4;
+}
+
+.main-content {
+    width: 80%;
+}
+
+.main-cards {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.card {
+    width: 25%;
+    padding: 1rem;
+    background-color: #fafafa;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.btn {
+    display: block;
+    margin: 2rem auto;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.footer {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    background-color: #f4f4f4;
+}
+
+    </style>
+
+<body>
+    <div class="main-container">
+    <header class="header">CSS CARD</header>
+
+    <section class="content-section">
+        <div class="sidebar">Sidebar</div>
+            <div class="main-content">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Error earum adipisci, officia ut, voluptatem odit quo dolorem 
+                    voluptatum aspernatur accusantium sequi, minima nemo numquam sunt! 
+                    Quae quis harum aut laboriosam.
+                </p>
+                <section class="main-cards">
+                    <div class="card">
+                        <img src="imgaes/Pastel Aesthetic Notebook.jpg">
+                        <p>Card 1</p>
+                        
+                    </div>
+                    
+                    <div class="card">
+                        <img src="imgaes/Vintage Art Sketchbook.jpg">
+                        <p>Card 2</p>
+                    </div>
+
+                    <div class="card">
+                        <img src="imgaes/Pastel Floral Sticker Pack.jpg" >
+                        <p>Card 3</p>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <button class="btn">Submit</button>
+
+        <footer class="footer">
+            Footer
+        </footer>
+
+    </div>
+</body>
+
+</html>
